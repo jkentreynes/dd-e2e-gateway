@@ -1,0 +1,8 @@
+{
+  "scenarioId" : "123123",
+  "scenario" : "create-template",
+  "scenarioType": "success",
+  "data" : {
+    "templateName" : "test template"
+  }
+}

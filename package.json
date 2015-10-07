@@ -1,0 +1,17 @@
+{
+  "name": "dd-e2e-gateway",
+  "version": "1.0.0",
+  "description": "data-driven end to end testing gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "deep-equal": "^1.0.1",
+    "hapi": "^10.3.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,154 @@
+{
+    "scenario": "",
+    "scenarioId": "",
+    "scenarioType": "",
+    "data": {
+        "types": [
+            "Self",
+            "Peer",
+            "Informal",
+            "Formal",
+            "Other"
+        ],
+        "tags": [],
+        "groups": [
+            {
+                "name": "Test Group 1",
+                "id": "227873f9-69c4-41b4-a3ca-fe26395c013f",
+                "indicators": [
+                    {
+                        "type": 1,
+                        "questionText": "What has life to offer me when I grow old?",
+                        "id": "971f7f24-ee69-4971-93fd-23c831ceaf29",
+                        "templateAttachments": []
+                    },
+                    {
+                        "type": 2,
+                        "questionText": "Right or wrong?",
+                        "answerOptions": [
+                            {
+                                "optionText": "right",
+                                "type": 2,
+                                "value": 100,
+                                "id": "caa6c828-8c30-4bfe-b445-de38e642b929",
+                                "selected": false
+                            },
+                            {
+                                "optionText": "wrong",
+                                "type": 2,
+                                "value": 0,
+                                "id": "713ef856-555e-4ff0-80b0-a0ad5dc4531d",
+                                "selected": false
+                            }
+                        ],
+                        "id": "706ee65e-90f2-49ef-a4ae-cdb15ac3fd98",
+                        "score": 0,
+                        "templateAttachments": []
+                    },
+                    {
+                        "type": 4,
+                        "questionText": "Test Rubric",
+                        "answerOptions": [
+                            {
+                                "optionText": "Test Rubric Title 1",
+                                "description": "Test Rubric Description 1",
+                                "value": 10,
+                                "selected": false,
+                                "type": 2,
+                                "id": "43564d75-accd-4c53-92dd-088638445a4b"
+                            },
+                            {
+                                "optionText": "Test Rubric Title 2",
+                                "description": "Test Rubric Description 2",
+                                "value": 5,
+                                "selected": false,
+                                "type": 2,
+                                "id": "dca9c7b4-ca98-49fa-9dca-3fb09c209431"
+                            }
+                        ],
+                        "id": "2acd91f0-37c4-4ced-acc9-df14e858ce07",
+                        "templateAttachments": []
+                    },
+                    {
+                        "type": 5,
+                        "questionText": "Test Label in Group 1",
+                        "id": "9e27cf56-048d-4679-81d9-c7630be98854",
+                        "templateAttachments": []
+                    }
+                ],
+                "templateAttachments": []
+            },
+            {
+                "name": "Test Group 2",
+                "id": "3a84d321-2e34-4419-8e35-24ce437f0ba3",
+                "indicators": [
+                    {
+                        "type": 5,
+                        "questionText": "Test Label in Group 2",
+                        "id": "fa6452c8-ac57-4ffb-8cfa-d9cc0aa3a2b2",
+                        "templateAttachments": []
+                    },
+                    {
+                        "type": 4,
+                        "questionText": "Test Rubric in Group 2",
+                        "answerOptions": [
+                            {
+                                "optionText": "Test Rubric in Group 2 Title 1",
+                                "description": "Test Rubric in Group 2 Description 1",
+                                "value": 20,
+                                "selected": false,
+                                "type": 2,
+                                "id": "0ea758ce-f0fc-49d5-8814-96f625d7c1f0"
+                            },
+                            {
+                                "optionText": "Test Rubric in Group 2 Title 2",
+                                "description": "Test Rubric in Group 2 Description 2",
+                                "value": 15,
+                                "selected": false,
+                                "type": 2,
+                                "id": "fd5ad3aa-b4af-4064-9163-dc6a604bcae5"
+                            }
+                        ],
+                        "id": "0dacd417-a25a-4f38-b48c-fc1e9b8487ea",
+                        "templateAttachments": []
+                    },
+                    {
+                        "type": 2,
+                        "questionText": "Left or Right?",
+                        "answerOptions": [
+                            {
+                                "optionText": "Left",
+                                "type": 2,
+                                "value": 0,
+                                "id": "a7e80067-823c-4bbf-843e-6cb0843cf3bf",
+                                "selected": false
+                            },
+                            {
+                                "optionText": "Right",
+                                "type": 2,
+                                "value": 100,
+                                "id": "e6e0126c-9f2c-4129-a492-07080b379aac",
+                                "selected": false
+                            }
+                        ],
+                        "id": "e385c16e-8423-4564-ad46-5230f0dfa5e2",
+                        "score": 0,
+                        "templateAttachments": []
+                    },
+                    {
+                        "type": 1,
+                        "questionText": "What's there to look forward to beyond the biting cold?",
+                        "id": "2e64030d-a618-45de-b10b-107857b29b67",
+                        "templateAttachments": []
+                    }
+                ],
+                "templateAttachments": []
+            }
+        ],
+        "creator": {
+            "id": "962014"
+        },
+        "name": "Test Template1",
+        "id": "a4216b26-fdfc-4e70-a095-c94d707c1780"
+    }
+}

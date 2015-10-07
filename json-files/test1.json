@@ -1,0 +1,178 @@
+{
+  "group":"group1",
+  "name":"test1",
+  "indicators" : [
+    {
+      "grades": ["8","9","10","11","12"]
+    },
+    {
+      "subjects": ["Math","English","PE","History","Science"]
+    }
+  ],
+   "groups": [
+            {
+                "name": "First Group With Attachments and one OE question",
+                "id": "12323",
+                "templateAttachments": [
+                    {
+                        "type": 1,
+                        "id": 433,
+                        "name": "Scoring Guides - Elementary"
+                    },
+                    {
+                        "type": 1,
+                        "id": 435,
+                        "name": "Impact on Grading - Elementary"
+                    },
+                    {
+                        "type": 1,
+                        "id": 495,
+                        "name": "Pyramid of Inventions"
+                    }
+                ],
+                "indicators": [
+                    {
+                        "id": "123",
+                        "type": "1",
+                        "questionText": "How does the teacher like her class?"
+                    }
+                ]
+            },
+            {
+                "name": "Second Group with no Attachments and all indicator types",
+                "id": "12323",
+                "indicators": [
+                    {
+                        "id": "123",
+                        "type": "1",
+                        "questionText": "Describe the teacher's classroom?"
+                    },
+                    {
+                        "id": "123",
+                        "type": "5",
+                        "questionText": "The following section should be completed in its entirety."
+                    },
+                    {
+                        "id": "123",
+                        "type": "2",
+                        "questionText": "The teacher's classroom is:",
+                        "answerOptions": [
+                            {
+                                "id": "123",
+                                "optionText": "messy",
+                                "uvalue": 10
+                            },
+                            {
+                                "id": "123",
+                                "optionText": "tidy",
+                                "uvalue": 20
+                            },
+                            {
+                                "id": "123",
+                                "optionText": "clean and well organized",
+                                "uvalue": 30
+                            }
+                        ]
+                    },
+                    {
+                        "id": "123",
+                        "type": "3",
+                        "questionText": "What color is used in the classroom?",
+                        "answerOptions": [
+                            {
+                                "id": "123",
+                                "optionText": "red",
+                                "uvalue": 10,
+                                "subOptions": [
+                                    {
+                                        "id": "123",
+                                        "optionText": "crimson",
+                                        "uvalue": 1
+                                    },
+                                    {
+                                        "id": "123",
+                                        "optionText": "burgundy",
+                                        "uvalue": 2
+                                    },
+                                    {
+                                        "id": "123",
+                                        "optionText": "brick",
+                                        "uvalue": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "123",
+                                "optionText": "yellow",
+                                "uvalue": 20,
+                                "subOptions": [
+                                    {
+                                        "id": "123",
+                                        "optionText": "mustard",
+                                        "uvalue": 1
+                                    },
+                                    {
+                                        "id": "123",
+                                        "optionText": "sunny",
+                                        "uvalue": 2
+                                    },
+                                    {
+                                        "id": "123",
+                                        "optionText": "ochre",
+                                        "uvalue": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "123",
+                                "optionText": "blue",
+                                "uvalue": 30,
+                                "subOptions": [
+                                    {
+                                        "id": "123",
+                                        "optionText": "navy",
+                                        "uvalue": 1
+                                    },
+                                    {
+                                        "id": "123",
+                                        "optionText": "royal",
+                                        "uvalue": 2
+                                    },
+                                    {
+                                        "id": "123",
+                                        "optionText": "aqua",
+                                        "uvalue": 3
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "123",
+                        "type": "4",
+                        "questionText": "What is the overall assessment of the teacher?",
+                        "answerOptions": [
+                            {
+                                "id": "123",
+                                "optionText": "Needs Improvement",
+                                "description": "this teacher needs improvement",
+                                "uvalue": 10
+                            },
+                            {
+                                "id": "123",
+                                "optionText": "Adequate",
+                                "description": "This teacher does an adequate job of teaching",
+                                "uvalue": 20
+                            },
+                            {
+                                "id": "123",
+                                "optionText": "Exceptional",
+                                "description": "This is the teacher we wish all of our children could have!",
+                                "uvalue": 30
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+}
